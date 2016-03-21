@@ -1,5 +1,5 @@
 
-var game = new Phaser.Game(800, 480, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update });
+var game = new Phaser.Game(600, 480, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update });
 
 var Bug = function(x,y,dx,dy,width,height, who){
 	this.x = x;
